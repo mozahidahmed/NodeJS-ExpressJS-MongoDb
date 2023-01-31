@@ -71,6 +71,29 @@ async function run() {
                 const result =await serviceCollection.deleteOne(query);
                 res.send(result);        
         })
+
+
+
+
+        //  put 
+        //  takle updata korba 
+        //  na takle add korba 
+        app.put('/getall/:id',async(req,res)=>{
+            const id=req.params.id;
+            const updateData=req.body
+            const filter={_id:ObjectId(id)}
+            const options = { upsert: true };
+            const updateDoc = {
+                $set: {
+                name:updateData.name,
+                email:updateData.email
+                }
+               
+              };
+              const services = await newCollection.updateOne(filter, updateDoc, options);r
+              res.send(services)
+
+        })
             
 
         
