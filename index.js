@@ -34,11 +34,11 @@ async function run(){
 
 try{
   await client.connect();
-   const billingCollection=client.db('programminghero').collection('billings');
+   const newCollection=client.db('database').collection('store');
 
 
 
-   
+
 
 
 
