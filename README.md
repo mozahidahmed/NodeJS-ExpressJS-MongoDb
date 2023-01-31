@@ -7,4 +7,5 @@
 <li>https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/cursor/</li>
 <li>https://www.mongodb.com/docs/drivers/node/current/usage-examples/find/</li>
 </ol>
+ <li>Get dta with ID :  </li>
 </ul>
