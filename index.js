@@ -58,6 +58,15 @@ async function run() {
             res.send(services)
         })
 
+        app.post('/getall',async (req,res)=>{
+  
+            const newProduct=req.body;
+            const service =await serviceCollection.insertOne(newProduct)
+            res.send(service)
+            })
+
+            
+        
 
 
 
