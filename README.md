@@ -7,5 +7,10 @@
 <li>https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/cursor/</li>
 <li>https://www.mongodb.com/docs/drivers/node/current/usage-examples/find/</li>
 </ol>
- <li>Get dta with id :  </li>
+ <li>Get dta with id :  </li> 
+ <li>Post data :  </li>
+ <ol>
+<li>https://www.mongodb.com/docs/drivers/node/current/usage-examples/insertOne/</li>
+
+</ol>
 </ul>
