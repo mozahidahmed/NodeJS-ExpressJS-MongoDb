@@ -63,9 +63,16 @@ async function run() {
             const newProduct=req.body;
             const service =await serviceCollection.insertOne(newProduct)
             res.send(service)
-            })
+        })
 
+        app.delete('/getall/:id',async (req,res)=>{
+                const id=req.params.id;
+                const query ={_id:ObjectId(id)};
+                const result =await serviceCollection.deleteOne(query);
+                res.send(result);        
+        })
             
+
         
 
 
