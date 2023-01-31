@@ -37,8 +37,9 @@ async function run() {
         const newCollection = client.db('database').collection('store');
 
 
-
-
+         //Documentation flow
+        // const cursor = collection.find({});
+        // const allValues = await cursor.toArray()
         app.get('/getall', async (req, res) => {
             const query = {}
             const cursor = newCollection.find(query)
