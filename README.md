@@ -11,6 +11,7 @@
  <li>Post data :  </li>
  <ol>
 <li>https://www.mongodb.com/docs/drivers/node/current/usage-examples/insertOne/</li>
-
 </ol>
+<li>Update data :  </li>
+<li>https://www.mongodb.com/docs/drivers/node/current/usage-examples/updateOne/</li>
 </ul>
