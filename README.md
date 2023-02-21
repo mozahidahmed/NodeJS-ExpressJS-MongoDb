@@ -1,6 +1,6 @@
 <ul>
 <h4>Overview</h4>
-<h4>Create || Read || update || Delete </h4>
+<h4>Create || Read || Update || Delete </h4>
 <li>Npm i express cors mongodb dotenv colors </li>
 <li>start:node index.js  and start-dev:nodemon index.js add pajkage.json file  </li>
 <li>Get Alldata :  </li>
